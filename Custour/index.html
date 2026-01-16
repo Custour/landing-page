@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custour.ai - Build Your Dream Trip in Minutes</title>
+    <meta name="description"
+        content="The AI agent that helps you research destinations, compare prices, and book your perfect itinerary.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Background Gradients -->
+    <div class="tropical-bg">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        <div class="blob blob-3"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="glass-nav">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <img src="logo.svg" alt="Custour Logo" class="logo-icon"
+                    style="height: 32px; vertical-align: middle; margin-right: 8px;">Custour<span
+                    class="highlight">.ai</span>
+            </a>
+            <div class="nav-links">
+                <a href="#how-it-works">How it works</a>
+                <a href="#why-custour">Why Custour</a>
+                <a href="#travel-ideas">Travel Ideas</a>
+            </div>
+            <button class="btn btn-primary nav-cta">Join Waitlist</button>
+            <button class="mobile-menu-btn" aria-label="Toggle menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero-section">
+        <div class="container hero-content">
+            <div class="hero-text fade-up">
+                <div class="badge">🌴 Your Personal Travel Companion</div>
+                <h1>Stop stressing <br><span class="gradient-text">about your trip.</span></h1>
+                <p class="hero-sub">
+                    Discover the world without the weight of planning. Your personal AI concierge handles everything.
+                    From dreaming up your perfect trip to booking the details, so you can just pack and go.
+                </p>
+
+                <form class="waitlist-form">
+                    <input type="email" placeholder="Where do you want to go?" required aria-label="Email Address">
+                    <button type="submit" class="btn btn-primary">Join Waitlist</button>
+                </form>
+                <p class="micro-copy">Join 5,000+ travelers exploring the world today.</p>
+            </div>
+            <div class="hero-visual fade-up delay-200">
+                <!-- AI Orb & Traveler Visual -->
+                <div class="glass-card hero-card orb-frame">
+                    <div class="orb-container">
+                        <!-- Traveler & AI Guide Visual -->
+                        <div class="traveler-visual">
+                            <img src="traveler_guide.png" alt="Traveler with AI Guide" class="traveler-img">
+                            <div class="visual-glow"></div>
+                        </div>
+
+                        <!-- Orbiting Icons -->
+                        <div class="orbit-ring">
+                            <div class="orbit-icon icon-flight">✈️</div>
+                            <div class="orbit-icon icon-hotel">🏨</div>
+                            <div class="orbit-icon icon-activity">🏄</div>
+                            <div class="orbit-icon icon-food">🍜</div>
+                            <div class="orbit-icon icon-budget">💰</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Features Section -->
+    <section id="features" class="features-section">
+        <div class="container">
+            <div class="section-header fade-up">
+                <h2>Everything you need for your journey</h2>
+                <p>From initial spark to final booking, we handle the chaos.</p>
+            </div>
+
+            <div class="features-grid">
+                <!-- Feature 1: Deep Research -->
+                <div class="feature-card glass-card fade-up delay-100">
+                    <div class="feature-visual chat-visual">
+                        <div class="chat-bubble ai">
+                            <p><strong>Hidden Gem Found!</strong> 🌿<br>Secret waterfall near Ubud, only known to
+                                locals.</p>
+                        </div>
+                    </div>
+                    <h3>Deep Research</h3>
+                    <p>Go beyond surface-level blogs. Our AI understands the destination deeply to help you find exactly
+                        what you're looking for, hidden gems included.</p>
+                </div>
+
+                <!-- Feature 2: Price Comparison -->
+                <div class="feature-card glass-card fade-up delay-200">
+                    <div class="feature-visual flight-visual">
+                        <div class="flight-card best-deal">
+                            <div class="carrier">Garuda Indonesia</div>
+                            <div class="price">$450 <span class="badge">Best Deal</span></div>
+                        </div>
+                        <div class="flight-card">
+                            <div class="carrier">Scoot</div>
+                            <div class="price">$280</div>
+                        </div>
+                    </div>
+                    <h3>Price Comparison</h3>
+                    <p>We aggregate real-time prices from various providers for flights and hotels, so you can compare
+                        options and book the best deal instantly.</p>
+                </div>
+
+                <!-- Feature 3: Intelligent Planning -->
+                <div class="feature-card glass-card fade-up delay-300">
+                    <div class="feature-visual itinerary-visual">
+                        <div class="timeline-item">
+                            <span class="time">09:00</span>
+                            <span class="event">Arrive BKK 🛬</span>
+                        </div>
+                        <div class="timeline-item">
+                            <span class="time">11:00</span>
+                            <span class="event">Check-in: The Siam 🏨</span>
+                        </div>
+                        <div class="timeline-item">
+                            <span class="time">13:00</span>
+                            <span class="event">Street Food Tour 🍜</span>
+                        </div>
+                    </div>
+                    <h3>Intelligent Planning</h3>
+                    <p>Logistics made easy. Our AI arranges everything into a logical, smooth schedule that fits your
+                        pace and preferences.</p>
+                </div>
+
+                <!-- Feature 4: Budget & Booking -->
+                <div class="feature-card glass-card fade-up delay-400">
+                    <div class="feature-visual budget-visual">
+                        <div class="budget-row">
+                            <span>Flights</span>
+                            <span>$450</span>
+                        </div>
+                        <div class="budget-row">
+                            <span>Hotels</span>
+                            <span>$1,200</span>
+                        </div>
+                        <div class="budget-total">
+                            <span>Total</span>
+                            <span>$1,850</span>
+                        </div>
+                    </div>
+                    <h3>Budget & Booking</h3>
+                    <p>Track every dollar. Calculate the full cost of your trip and manage expenses with a real-time
+                        budget tracker.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How it Works Section -->
+    <section id="how-it-works" class="how-it-works-section">
+        <div class="container">
+            <div class="section-header fade-up">
+                <h2>Your Journey in 3 Steps</h2>
+                <p>Simple, intuitive, and stress-free.</p>
+            </div>
+
+            <div class="steps-container">
+                <div class="step-card fade-up delay-100">
+                    <div class="step-icon">💬</div>
+                    <div class="step-content">
+                        <h3>Tell us your dream</h3>
+                        <p>Share your destination, dates, budget, and style. "A romantic week in Bali under $3k."</p>
+                    </div>
+                </div>
+                <!-- Connector Line -->
+                <div class="step-connector fade-up delay-200"></div>
+
+                <div class="step-card fade-up delay-200">
+                    <div class="step-icon">🧠</div>
+                    <div class="step-content">
+                        <h3>Get a custom plan</h3>
+                        <p>Our AI researches hidden gems, compares prices, and builds a day-by-day itinerary.</p>
+                    </div>
+                </div>
+                <!-- Connector Line -->
+                <div class="step-connector fade-up delay-300"></div>
+
+                <div class="step-card fade-up delay-300">
+                    <div class="step-icon">✈️</div>
+                    <div class="step-content">
+                        <h3>Book & Go</h3>
+                        <p>Review the plan, tweak if needed, and book everything with one click. Bon voyage!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Custour Section -->
+    <section id="why-custour" class="why-custour-section">
+        <div class="container">
+            <div class="section-header fade-up">
+                <h2>Your All-In-One Travel Concierge using AI.</h2>
+                <p>Imagine a trip where every detail is taken care of, just for you. Custour isn't just a booking tool;
+                    it's your dedicated travel partner.</p>
+            </div>
+
+            <div class="features-grid concierge-grid">
+                <!-- Feature 1: Find Your Perfect Match -->
+                <div class="feature-card glass-card fade-up delay-100">
+                    <div class="feature-visual chat-visual">
+                        <div class="chat-bubble ai">
+                            <p><strong>Hidden Gem!</strong> 💎<br>A secret cafe in Kyoto, perfect for your style.</p>
+                        </div>
+                    </div>
+                    <h3>Find Your Perfect Match</h3>
+                    <p>We help you discover hidden gems and local favorites that match your unique style.</p>
+                </div>
+
+                <!-- Feature 2: Smart Budgeting -->
+                <div class="feature-card glass-card fade-up delay-150">
+                    <div class="feature-visual flight-visual">
+                        <div class="flight-card best-deal">
+                            <div class="carrier">Garuda</div>
+                            <div class="price">$450 <span class="badge">Save 20%</span></div>
+                        </div>
+                    </div>
+                    <h3>Smart Budgeting</h3>
+                    <p>Compare prices from different providers instantly and find the best options that fit your budget.
+                    </p>
+                </div>
+
+                <!-- Feature 3: Effortless Itineraries -->
+                <div class="feature-card glass-card fade-up delay-200">
+                    <div class="feature-visual itinerary-visual">
+                        <div class="timeline-item">
+                            <span class="time">09:00</span>
+                            <span class="event">Arrive BKK 🛬</span>
+                        </div>
+                        <div class="timeline-item">
+                            <span class="time">10:30</span>
+                            <span class="event">Private Transfer 🚕</span>
+                        </div>
+                    </div>
+                    <h3>Effortless Itineraries</h3>
+                    <p>No more running in circles. We arrange your schedule logically so you make the most of your day.
+                    </p>
+                </div>
+
+                <!-- Feature 4: One-Click Booking -->
+                <div class="feature-card glass-card fade-up delay-250">
+                    <div class="feature-visual booking-visual">
+                        <div class="booking-check">
+                            <div class="check-circle">✓</div>
+                            <div class="booking-text">
+                                <span class="booking-title">Trip Confirmed</span>
+                                <span class="booking-sub">Flights + Hotels + Tours</span>
+                            </div>
+                        </div>
+                    </div>
+                    <h3>One-Click Booking</h3>
+                    <p>Book everything from one place. No more opening twenty tabs just to secure your flights, stays,
+                        and fun.</p>
+                </div>
+
+                <!-- Feature 5: Real-time Adjustments -->
+                <div class="feature-card glass-card fade-up delay-300">
+                    <div class="feature-visual adjustment-visual">
+                        <div class="alert-bubble">
+                            <span class="alert-icon">⚠️</span>
+                            <div class="alert-content">
+                                <strong>Flight Delayed</strong>
+                                <span>Rebooking connection...</span>
+                            </div>
+                        </div>
+                        <div class="success-bubble">
+                            <span class="success-icon">✓</span>
+                            <span>New flight confirmed!</span>
+                        </div>
+                    </div>
+                    <h3>Real-time Adjustments</h3>
+                    <p>Plans change. We handle the pivots, re-bookings, and special requests, keeping your trip smooth.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="glass-card contact-card fade-up">
+                <div class="contact-content">
+                    <h2>Get in touch</h2>
+                    <p>Have questions? We're here to help you plan your dream trip.</p>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Name" aria-label="Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Email" aria-label="Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Message" aria-label="Message" rows="4" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <a href="#" class="logo">Custour<span class="highlight">.ai</span></a>
+                <p>Your personal AI travel companion.</p>
+            </div>
+            <div class="footer-links">
+                <div class="link-group">
+                    <h4>Company</h4>
+                    <a href="#">About</a>
+                    <a href="#">Careers</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <div class="link-group">
+                    <h4>Legal</h4>
+                    <a href="#">Privacy</a>
+                    <a href="#">Terms</a>
+                </div>
+                <div class="link-group">
+                    <h4>Socials</h4>
+                    <div class="social-icons">
+                        <a href="#" aria-label="Twitter">🐦</a>
+                        <a href="#" aria-label="Instagram">📸</a>
+                        <a href="#" aria-label="LinkedIn">💼</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Custour.ai. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
