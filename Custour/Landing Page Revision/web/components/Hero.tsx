@@ -3,7 +3,8 @@
 import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
 import { Sparkles, MapPin, Plane, Hotel, CheckSquare, Wallet } from "lucide-react";
-import Image from "next/image"; // Note: For avatars, we'll use placeholder divs for now if no images
+import Image from "next/image";
+import { HeroAnimation } from "@/components/HeroAnimation";
 
 export function Hero() {
     return (
@@ -70,22 +71,9 @@ export function Hero() {
                 initial={{ opacity: 0, y: 40 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.7, delay: 0.4 }}
-                className="relative mt-16 w-full max-w-4xl"
+                className="relative mt-16 w-full flex justify-center perspective-1000"
             >
-                {/* The White Card "Trip to Bali" */}
-                <div className="relative mx-auto h-[300px] w-full max-w-[600px] rounded-xl border border-gray-100 bg-white shadow-2xl flex items-center justify-center p-8 z-20">
-                    {/* Inner Content Placeholder */}
-                    <div className="flex items-center gap-4 text-gray-400">
-                        <div className="flex items-center gap-2 rounded-full border border-gray-100 bg-gray-50 px-4 py-2 text-sm">
-                            <MapPin className="h-4 w-4" />
-                            Trip to Bali
-                        </div>
-                        <div className="flex items-center gap-2 rounded-full border border-gray-100 bg-gray-50 px-4 py-2 text-sm">
-                            <div className="h-2 w-16 rounded-full bg-gray-200"></div>
-                        </div>
-                    </div>
-                    {/* Background pattern or subtle UI elements can be added here */}
-                </div>
+                <HeroAnimation />
             </motion.div>
 
             {/* Black Dashboard / Features Bar */}
@@ -93,7 +81,7 @@ export function Hero() {
                 initial={{ opacity: 0, y: 40 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.7, delay: 0.5 }}
-                className="relative z-10 -mt-16 w-full max-w-5xl rounded-3xl bg-[#1a1a1a] p-8 text-white shadow-2xl pt-24"
+                className="relative z-10 mt-8 w-full max-w-5xl rounded-3xl bg-[#1a1a1a] p-8 text-white shadow-2xl"
             >
                 <div className="flex flex-col items-center">
                     <div className="inline-flex items-center gap-2 rounded-full bg-white/10 px-3 py-1 text-xs font-medium text-gray-300">

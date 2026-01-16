@@ -22,9 +22,9 @@ Your All-In-One Travel Concierge using AI.
 Imagine a trip where every detail is taken care of, just for you. Custour isn't just a booking tool; it's your dedicated travel partner that manages every step of your journey.
 
 *   **Find Your Perfect Match:** We help you discover hidden gems and local favorites that match your unique style.
-*   **Smart Budgeting:** Compare prices from different providers for hotels, flights, and activities. See availability instantly and find the best options that fit your budget.
 *   **Effortless Itineraries:** No more running in circles. We arrange your schedule logically, calculating travel times and matching plans with opening hours so you make the most of your day.
-*   **One-Click Booking:** Book everything from one place. No more opening twenty tabs just to secure your flights, stays, and fun.
+*   **Smart Budgeting:** Keep your finances in check with real-time price tracking for every part of your trip, so that your dream getaway never breaks the bank.
+*   **All-in-one Booking:** Secure your entire journey from one single platform, comparing options from multiple providers. No more opening dozens of tabs to find the best deals.
 *   **Real-time Adjustments:** Plans change. We handle the pivots, re-bookings, and even confirm special requests directly with hosts, keeping your trip smooth no matter what happens.
 
 **Closing Statement:**
